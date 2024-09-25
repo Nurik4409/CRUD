@@ -1,0 +1,73 @@
+/* Общие стили */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Контейнер формы */
+.edit {
+    max-width: 600px;
+    margin: auto;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Заголовок */
+.edit h1 {
+    text-align: center;
+    color: #333;
+}
+
+/* Форма */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form button {
+    margin-top: 10px;
+    padding: 10px;
+    background-color: #28a745; /* Зеленый */
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+form button:hover {
+    background-color: #218838; /* Темнее зеленый */
+}
+
+/* Ссылка "Назад" */
+a {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    color: #007bff; /* Синий */
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: #0056b3; /* Темнее синий */
+}
+
+/* Поля формы */
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+/* Ошибки формы */
+.form-error {
+    color: #dc3545; /* Красный */
+    margin-top: 5px;
+}
